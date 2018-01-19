@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Create a scraper like EICC (step 2)</title>
+  <meta name="description" content="Create a scraper like EICC (step 2)">
+
+  <link href="https://tkumpanenko.github.io/slides/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="https://tkumpanenko.github.io/slides/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="https://tkumpanenko.github.io/slides/slides/tutorials/095/">
+  <link rel="alternate" type="application/atom+xml" title="Andrew Howard - slide show" href="https://tkumpanenko.github.io/feed.xml"/>
+  <link rel="shortcut icon" type="image/png" href="https://tkumpanenko.github.io/favicon.png">
+</head>
+
+  <body class=>
+
+    <main class="wrap">
+      <div class="main-content">
+        <div class="section-default section-tuts">
+	<div class="row">
+		<div class="small-12 medium-4 large-3 columns">
+			<div class="tutorials-sidebar">
+				<h3>Contents</h3>
+				
+
+				
+
+				<ul class="tutorial-nav">
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/001/">General Overview</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/002/">General Overview</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/003/">Empty the database</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/004/">Empty the database</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/005/">Importing files</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/006/">Input: Import inputfiles</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/007/">Import companies</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/008/">Import companies: Results</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/009/">Importing data using the inputfile</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/010/">Import Invest IQ Files</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/011/">Import Invest IQ Files (2)</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/012/">Data already imported in the database</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/013/">Tables already in database</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/014/">Input: Import from Database Tables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/015/">Input: Import from Database Tables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/016/">Input: Import from Database Tables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/017/">Input: Import from Database Tables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/018/">Input: Import from Database Tables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/019/">Input: Import from Database Tables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/020/">Input: Config</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/021/">Create an inputfile</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/022/">Create input file</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/023/">Create input file: Run scrapers</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/024/">Create input file: Edit outputfile</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/025/">Create input file: Edit outputfile (2)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/026/">Create input file: Create inputfile</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/027/">Create input file: Create inputfile (2)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/028/">Create input file: Create inputfile (3)</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/029/">Fuzzy matching process</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/030/">Fuzzy-matching</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/031/">Delete/Add/Edit Scrapers</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/032/">Deleting a scraper</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/033/">Making a scraper obsolete</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/034/">Adding a new scraper (1)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/035/">Adding a new scraper (2)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/036/">Adding a new scraper (3)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/037/">Adding a new scraper (4)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/038/">Adding a new scraper (5)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/039/">Adding a new scraper (6)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/040/">Adding a new scraper (7)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/041/">Using the new scraper in the metrics table</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/042/">Create a record based on historic data</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/043/">Delete/Add/Edit BBG/DS-datapoints</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/044/">Adding a new datapoint from BBG/DS</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/045/">Adding a new datapoint in input</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/046/">Delete/Add/Edit Metrics</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/047/">Adding a new metrics</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/048/">Creating a new metric-formula-type</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/049/">Creating a new metric-formula-type</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/050/">Normal run</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/051/">Normal run</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/052/">Python processing</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/053/">Export</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/054/">Selection of the outputvariables</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/055/">Follow-up of the normal run</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/056/">Selection of the outputvariables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/057/">Uploaded files</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/058/">Output files</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/059/">Export</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/060/">Different methods to export data</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/061/">http://scrapecalctool.scibizinformatics.com/output/</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/062/">Method 5: Using Metrics calculations results</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/063/">Running parts of the run</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/064/">Normal Run</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/065/">Manual Running of parts of the script</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/066/">Manual Running of parts of the script</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/067/">Manual Running of parts of the script</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/068/">After the Export</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/069/">After using the export-action</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/070/">Redirect to selection screen</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/071/">After using the export-action</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/072/">After the export: health check</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/073/">After the export: health check</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/074/">Special cases</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/075/">RTB</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/076/">EICC/EITI Change</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/077/">EICC/EITI Change (2)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/078/">EICC/EITI Change (3)</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/079/">Input: using fuzzy string comparison </a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/080/">Input: using fuzzy string comparison</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/081/">Input: using fuzzy string comparison </a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/082/">Input: using fuzzy string comparison </a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/083/">Input: using fuzzy string comparison </a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/084/">Run specific scrapers</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/085/">Obsolete scrapers: Scraper scripts</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/086/">Select which scrapers will run Using Scraper scripts </a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/087/">Select which scrapers will run Using Scraper variables</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/088/">Select which scrapers will run Using Scraper variables</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/089/">Create a scraper-output-variable that is dependent on other scraper-output-variables</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/090/">Running a scraper based on other scrapers</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/091/">Fuzzy matching for EITI/EICC-tables</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/092/">Fill company name and isin code using fuzzy comparison</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/093/">Create new EITI/EICC-tables</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/094/">Create a scraper like EICC (step 1)</a>
+							</li>
+							
+							<li  class="active" >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/095/">Create a scraper like EICC (step 2)</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/096/">Create datapoints based on the (isin) or (isin + year)-combinations</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/097/">DP not based on scrapers and not based on BBG/DS</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/098/">Kill a job</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/099/">Kill a job</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					<li >
+						<a href="https://tkumpanenko.github.io/slides/topic/100/">Cultural analysis</a>
+						<ul class="tutorial-sub-nav">
+							
+							
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/101/">Steps of cultural analysis</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/102/">Step 1: scraping input</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/103/">Step 1: Start Scraping GD</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/104/">Step 1: Start Scraping Seeking Alpha</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/105/">Step 1: Output GD</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/106/">Step 1: Output Seeking Alpha</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/107/">Step 2: Preparing Cultural Analysis</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/108/">Step 2: run analysis</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/109/">Step 2: output</a>
+							</li>
+							
+							<li >
+								<a href="https://tkumpanenko.github.io/slides/tutorials/110/">Step 2: export output</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+				</ul>
+			</div>
+
+		</div>
+		<div class="small-12 offset-large-1 large-8 medium-8 columns">
+			<div class="tutorial-content">
+				<h4>Create a scraper like EICC (step 2)</h4>
+
+<ul>
+	<li>Create a scraper in  
+		<br><a href="http://scrapecalctool.scibizinformatics.com/admin/base/admin_scripts/">http://scrapecalctool.scibizinformatics.com/admin/base/admin_scripts/</a>
+	</li>
+	<li>Copy the script and modify it</li>
+</ul>
+
+<p>Step 1: create the scraper in <a href="http://scrapecalctool.scibizinformatics.com/admin/base/admin_scripts/">http://scrapecalctool.scibizinformatics.com/admin/base/admin_scripts/</a>, give a unique name, leave the two checkboxes (obsolete and run_once to false), copy-paste the following script:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="s">"""
+v 1.000.000: created
+Purpose: get list of companies from AAA
+"""</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="kn">from</span> <span class="nn">requests.packages.urllib3.util.retry</span> <span class="kn">import</span> <span class="n">Retry</span>
+<span class="kn">from</span> <span class="nn">requests.adapters</span> <span class="kn">import</span> <span class="n">HTTPAdapter</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">from</span> <span class="nn">base.models</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span>
+<span class="n">retries</span> <span class="o">=</span> <span class="n">Retry</span><span class="p">(</span><span class="n">total</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+                <span class="n">backoff_factor</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+                <span class="n">status_forcelist</span><span class="o">=</span><span class="p">[</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">502</span><span class="p">,</span> <span class="mi">503</span><span class="p">,</span> <span class="mi">504</span> <span class="p">])</span>
+<span class="n">s</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s">'http://'</span><span class="p">,</span> <span class="n">HTTPAdapter</span><span class="p">(</span><span class="n">max_retries</span><span class="o">=</span><span class="n">retries</span><span class="p">))</span> 
+<span class="n">request_headers</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">"Accept-Language"</span><span class="p">:</span> <span class="s">"en-US,en;q=0.5"</span><span class="p">,</span>
+    <span class="s">"User-Agent"</span><span class="p">:</span> <span class="s">"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"</span><span class="p">,</span>
+    <span class="s">"Accept"</span><span class="p">:</span> <span class="s">"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"</span><span class="p">,</span>
+    <span class="s">"Referer"</span><span class="p">:</span> <span class="s">"http://facebook.com"</span><span class="p">,</span>
+    <span class="s">"Connection"</span><span class="p">:</span> <span class="s">"keep-alive"</span> 
+<span class="p">}</span>    
+<span class="k">class</span> <span class="nc">AAA_Scraper</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+    
+    <span class="k">def</span> <span class="nf">AAA_Scrape</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">company_name</span><span class="p">,</span> <span class="n">task_id</span><span class="p">,</span> <span class="n">log_file</span><span class="p">,</span> <span class="n">teller</span><span class="p">):</span>
+        <span class="n">AAA_output</span> <span class="o">=</span> <span class="s">'N'</span>            
+        <span class="n">url</span> <span class="o">=</span> <span class="s">"http://www.eiccoalition.org/about/members/"</span>        
+        <span class="k">print</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>        
+        <span class="n">rand_wait</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">rand_wait</span><span class="p">)</span>
+       
+        <span class="n">resp</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">request_headers</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="n">resp</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+           <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">resp</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s">'html.parser'</span><span class="p">)</span> 
+           <span class="n">companies</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">string</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">'utf8'</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span>  <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'h4'</span><span class="p">,</span> <span class="p">{</span><span class="s">'class'</span><span class="p">:</span><span class="s">'memberTitle'</span><span class="p">})[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'li'</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">string</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">]</span>
+           <span class="k">if</span> <span class="n">company_name</span> <span class="ow">in</span> <span class="n">companies</span><span class="p">:</span>
+               <span class="n">AAA_output</span> <span class="o">=</span> <span class="s">'Y'</span>
+           <span class="k">else</span><span class="p">:</span> 
+               <span class="n">AAA_output</span> <span class="o">=</span> <span class="s">'N'</span>
+           <span class="k">return</span> <span class="p">{</span><span class="s">'AAA_output'</span><span class="p">:</span><span class="n">AAA_output</span><span class="p">}</span></code></pre></figure>
+
+<p>In this script, you need to replace AAA by something more relevant. You need to replace the url and you need to replace the "companies = ..."-line </p>
+
+
+				<!-- Pagination links -->
+<div class="pagination">
+	<div class="row">
+		<div class="small-6 pagination-prev">
+			
+			
+			<a href="https://tkumpanenko.github.io/slides/tutorials/094/" class="previous">
+				<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8">
+					<g fill="none" fill-rule="evenodd" stroke="#1FC1C4" stroke-width="2">
+						<path stroke-linecap="square" d="M11 4H3.429"/>
+						<path d="M5 6.828L2.172 4 5 1.172"/>
+					</g>
+				</svg>
+				Previous
+			</a>
+			
+		</div>
+		<div class="small-6 pagination-next">
+
+			
+			<a href="https://tkumpanenko.github.io/slides/topic/096/" class="next">
+				Next
+				<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8">
+					<g fill="none" fill-rule="evenodd" stroke="#1FC1C4" stroke-width="2">
+						<path stroke-linecap="square" d="M1 4h7.571"/><path d="M7 6.828L9.828 4 7 1.172"/>
+					</g>
+				</svg>
+			</a>
+			
+		</div>
+	</div>
+</div>
+
+
+<!-- /Pagination links -->
+			</div>
+		</div>
+	</div>
+</div>
+
+      </div>
+
+      <footer class="site-footer">
+		<div class="small-12 columns">
+			<span class="darkgray">© 2018 Andrew Howard</span>
+		</div>
+</footer>
+
+    </main>
+  </body>
+</html>

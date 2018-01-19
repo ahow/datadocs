@@ -1,0 +1,79 @@
+div.download-package {
+  float: left;
+  margin-right: 30px;
+  height: 100px;
+  width: 230px; }
+
+div.download-package div {
+  line-height: 100px; }
+
+p.download-description {
+  margin-right: 20px; }
+
+span.gray {
+  color: #cccccc; }
+
+span.darkgray {
+  color: #888888; }
+
+div.download-link {
+  background-color: #3E434D;
+  width: 120px;
+  height: 60px;
+  margin-top: 30px; }
+
+div.download-link a {
+  /* Layout */
+  line-height: 60px;
+  display: block;
+  padding: 0 22px;
+  border-color: #aaa;
+  /* Typography */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #C7CCD3;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* Transitions */
+  -webkit-transition: color .2s ease-in, border-top-color .2s ease-in;
+  -ms-transition: color .2s ease-in, border-top-color .2s ease-in;
+  -moz-transition: color .2s ease-in, border-top-color .2s ease-in;
+  -o-transition: color .2s ease-in, border-top-color .2s ease-in;
+  transition: color .2s ease-in, border-top-color .2s ease-in; }
+
+div.download-link:hover a {
+  color: #fff; }
+
+div.download-link a:hover {
+  cursor: pointer; }
+
+.row {
+  max-width: 90em !important; }
+
+.tutorial-content {
+  font-size: 16px; }
+  .tutorial-content h3 {
+    text-align: center;
+    font-size: 2em; }
+  .tutorial-content h4 {
+    text-align: center;
+    font-size: 1.5em; }
+
+.section {
+  margin-bottom: 35px; }
+
+.vertical-centering .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.vertical-centering .post-content {
+  max-width: 1000px;
+  text-align: center; }
+
+.vertical-centering .wrap {
+  padding-top: 0 !important; }
+
+.tutorial-content img {
+  margin-bottom: 1.5em; }
