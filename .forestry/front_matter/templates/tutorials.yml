@@ -99,3 +99,6 @@ fields:
     required: true
   label: topic
   name: topic
+- type: number
+  name: order
+  label: order
