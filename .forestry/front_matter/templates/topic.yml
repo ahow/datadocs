@@ -31,6 +31,9 @@ fields:
   hidden: true
   default: topic
 - type: text
+  name: title
+  label: Title
+- type: text
   name: slug
   label: slug
   config:
