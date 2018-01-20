@@ -92,5 +92,10 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: tutorials
+- type: text
+  config:
+    required: true
+  label: topic
+  name: topic
