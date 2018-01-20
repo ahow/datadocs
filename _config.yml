@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Andrew Howard - slide show
 email: your-email@domain.com
-baseurl: "/slides" # the subpath of your site, e.g. /blog
-url: "https://tkumpanenko.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/datadocs" # the subpath of your site, e.g. /blog
+url: "https://ahow.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 copyright: "2018 © Andrew Howard"
 
