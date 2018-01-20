@@ -1,8 +1,43 @@
 ---
+pages:
+- _topic/100.html
+- _topic/098.html
+- _topic/096.html
+- _topic/093.html
+- _topic/091.html
+- _topic/089.html
+- _topic/084.html
+- _topic/074.html
+- _topic/068.html
+- _topic/063.html
+- _topic/059.html
+- _topic/055.html
+- _topic/050.html
+- _topic/048.html
+- _topic/046.html
+- _topic/043.html
+- _topic/031.html
+- _topic/029.html
+- _topic/021.html
+- _topic/012.html
+- _topic/005.html
+- _topic/003.html
+- _topic/001.html
 hide_body: false
 fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: topic
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: slug
+  label: slug
+  config:
+    required: true
+- type: number
+  label: order
+  name: order

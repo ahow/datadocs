@@ -1,8 +1,107 @@
 ---
+pages:
+- _tutorials/109.html
+- _tutorials/107.html
+- _tutorials/106.html
+- _tutorials/105.html
+- _tutorials/104.html
+- _tutorials/103.html
+- _tutorials/102.html
+- _tutorials/101.html
+- _tutorials/099.html
+- _tutorials/097.html
+- _tutorials/095.html
+- _tutorials/094.html
+- _tutorials/092.html
+- _tutorials/090.html
+- _tutorials/088.html
+- _tutorials/087.html
+- _tutorials/086.html
+- _tutorials/085.html
+- _tutorials/083.html
+- _tutorials/082.html
+- _tutorials/081.html
+- _tutorials/080.html
+- _tutorials/079.html
+- _tutorials/078.html
+- _tutorials/077.html
+- _tutorials/076.html
+- _tutorials/075.html
+- _tutorials/073.html
+- _tutorials/072.html
+- _tutorials/071.html
+- _tutorials/070.html
+- _tutorials/069.html
+- _tutorials/067.html
+- _tutorials/066.html
+- _tutorials/065.html
+- _tutorials/064.html
+- _tutorials/062.html
+- _tutorials/061.html
+- _tutorials/060.html
+- _tutorials/058.html
+- _tutorials/057.html
+- _tutorials/056.html
+- _tutorials/054.html
+- _tutorials/053.html
+- _tutorials/052.html
+- _tutorials/051.html
+- _tutorials/049.html
+- _tutorials/047.html
+- _tutorials/045.html
+- _tutorials/044.html
+- _tutorials/042.html
+- _tutorials/041.html
+- _tutorials/040.html
+- _tutorials/039.html
+- _tutorials/038.html
+- _tutorials/037.html
+- _tutorials/036.html
+- _tutorials/035.html
+- _tutorials/034.html
+- _tutorials/033.html
+- _tutorials/032.html
+- _tutorials/030.html
+- _tutorials/028.html
+- _tutorials/027.html
+- _tutorials/026.html
+- _tutorials/025.html
+- _tutorials/024.html
+- _tutorials/023.html
+- _tutorials/022.html
+- _tutorials/020.html
+- _tutorials/019.html
+- _tutorials/018.html
+- _tutorials/017.html
+- _tutorials/016.html
+- _tutorials/015.html
+- _tutorials/014.html
+- _tutorials/013.html
+- _tutorials/011.html
+- _tutorials/010.html
+- _tutorials/009.html
+- _tutorials/008.html
+- _tutorials/007.html
+- _tutorials/006.html
+- _tutorials/004.html
+- _tutorials/002.html
+- _tutorials/108.html
+- _tutorials/110.html
 hide_body: false
 fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: tutorials
+- type: text
+  name: title
+  label: Title
+- type: text
+  config:
+    required: true
+  label: topic
+  name: topic
+- type: number
+  name: order
+  label: order
