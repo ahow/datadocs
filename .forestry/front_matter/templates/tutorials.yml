@@ -95,6 +95,9 @@ fields:
   hidden: true
   default: tutorials
 - type: text
+  name: title
+  label: Title
+- type: text
   config:
     required: true
   label: topic
