@@ -30,3 +30,8 @@ fields:
   type: text
   hidden: false
   default: topic
+- type: text
+  name: slug
+  label: slug
+  config:
+    required: true
